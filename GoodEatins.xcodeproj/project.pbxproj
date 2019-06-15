@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1260D722B55E22005EC2EE /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1260D622B55E22005EC2EE /* RecipeDetailsViewController.swift */; };
 		AA17DB2222B4CF00005E9AE8 /* RecipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA17DB2122B4CF00005E9AE8 /* RecipeViewCell.swift */; };
 		AA7884D722B41D500052B8B3 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7884D622B41D500052B8B3 /* CategoryViewCell.swift */; };
 		AA7884D922B450670052B8B3 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7884D822B450670052B8B3 /* RecipesViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1260D622B55E22005EC2EE /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
 		AA17DB2122B4CF00005E9AE8 /* RecipeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewCell.swift; sourceTree = "<group>"; };
 		AA7884D622B41D500052B8B3 /* CategoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
 		AA7884D822B450670052B8B3 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				AAEE158C22B1BA1600242E94 /* HomeViewController.swift */,
 				AA7884D822B450670052B8B3 /* RecipesViewController.swift */,
+				AA1260D622B55E22005EC2EE /* RecipeDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEE158D22B1BA1600242E94 /* HomeViewController.swift in Sources */,
+				AA1260D722B55E22005EC2EE /* RecipeDetailsViewController.swift in Sources */,
 				AA7884D922B450670052B8B3 /* RecipesViewController.swift in Sources */,
 				AA17DB2222B4CF00005E9AE8 /* RecipeViewCell.swift in Sources */,
 				AAEE15A422B1BD2C00242E94 /* DataSet.swift in Sources */,

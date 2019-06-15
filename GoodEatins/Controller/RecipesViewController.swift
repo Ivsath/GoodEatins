@@ -12,6 +12,7 @@ class RecipesViewController: UIViewController, UICollectionViewDelegate, UIColle
     @IBOutlet weak var collectionView: UICollectionView!
     
     var selectedCategory: String!
+    var recipeToPass: Recipe!
     var recipes: [Recipe]!
     let data = DataSet()
     
@@ -38,6 +39,17 @@ class RecipesViewController: UIViewController, UICollectionViewDelegate, UIColle
         let width = view.bounds.width
         let cellDimentions = (width / 2) - 15
         return CGSize(width: cellDimentions, height: cellDimentions)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        recipeToPass = recipes[indexPath.row]
+        performSegue(withIdentifier: "toRecipeDetails", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let recipeDetailsViewController = segue.destination as? RecipeDetailsViewController {
+            recipeDetailsViewController.selectedRecipe = recipeToPass
+        }
     }
 
 }
